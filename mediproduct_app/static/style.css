@@ -1,0 +1,212 @@
+.photos img {
+    width: 400px;
+    max-height:600px;
+    display: block;
+    margin: 15px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    max-width: 600px;
+    height:310px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+input[type="text"] {
+    text-align: right;
+    direction: rtl;
+    font-family: 'Arial', 'Segoe UI', Tahoma, sans-serif;
+}
+
+form button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    float: right;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #ffffff;
+}
+
+header.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+button.dark-mode {
+    background-color: #444;
+    color: #fff;
+}
+
+button.dark-mode:hover {
+    background-color: #222;
+}
+
+body.dark-mode h2 {
+    color: #000;
+}
+
+body.dark-mode p {
+    color: #131313;
+}
+
+.dark-mode-button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dark-mode-button:hover {
+    background-color: #222;
+}
+
+/* Style the night mode button */
+.night-mode-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.night-mode-button:hover {
+    background-color: #222;
+}
+
+.moon-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.button-text {
+    font-size: 16px;
+}
+
+#success-message {
+    display: none;
+    direction:rtl;
+    font-family: 'Tajawal', sans-serif; 
+    text-align: center;
+    background: linear-gradient(45deg, #F9F9F9, #E8E8E8);
+    border-radius: 12px;
+    padding: 20px 40px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+    width: 340px; 
+    margin: 40px auto;
+    border: 2px solid #E1E1E1;
+    position: relative;
+    overflow: hidden;
+}
+
+#success-message::before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 128, 0, 0.1);
+    transform: rotate(45deg);
+    z-index: 0;
+}
+
+#success-message p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+#success-message p:first-child {
+    font-weight: bold;
+}
+
+#success-message p:last-child {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.icon-container span {
+    font-size: 48px;
+    color: #00A000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-text {
+    font-size: 18px;
+    direction: rtl;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp-icon {
+    height: 24px;
+    width: 24px;
+    margin: 0 5px;
+}
+
+.whatsapp-number {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.golden-text {
+    background-color: #fff900;
+    color: #304461;
+    font-weight: bold;
+    font-family: 'serif'; 
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #525252;
+    display: inline-block; 
+    margin: 10px; 
+    border-radius: 5px; 
+}
+
